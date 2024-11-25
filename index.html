@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div class="logo" id="logo">Weather</div>
+            <button class="menu-toggle" id="menu-toggle">☰</button>
+            <nav class="nav" id="nav-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="weather-section">
+            <h2 class="h_type">Погода</h2>
+            <input class="input__second" id="city-input" type="text" placeholder="Введіть місто">
+            <button class="btn" id="get-weather-btn">Клікай!</button>
+            <div class="weather-info" id="weather-info"></div> 
+        </section>
+    </div>
+
+    <div class="coment">
+        <h2>Ваш відгук</h2>
+        <textarea class="text__btn" id="comment-text" cols="30" rows="10" placeholder="Напишіть свій коментар"></textarea>
+        <input class="name__input" id="name-input" type="text" placeholder="Ваше ім'я">
+        <button class="button" id="send-comment">Відправити</button>
+        <div class="comments-list" id="comments-list"></div> 
+    </div>
+
+    <footer>
+        <div class="footer__main">
+            <div class="block">📞 Телефон: +38 (098) 08-50-397</div>
+            <div class="block">📧 Email: rubanikyaroslav@gmail.com</div>
+            <div class="block">🏢 Адреса: вул. Тімірязєва, 18, Вінниця, Україна</div>
+            <div class="block">!!!!!!!Всі права захищені!!!!!!!</div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="./weather.js"></script>
+</body>
+</html>
