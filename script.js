@@ -40,6 +40,7 @@ btn.addEventListener("click", function () {
 });
 
 
+
 setTimeout(function () {
     const { name, comment } = generateRandomComment();
     addComment(name, comment);
@@ -48,15 +49,164 @@ setTimeout(function () {
 function addComment(name, comment) {
     let commentBlock = document.createElement('div');
     commentBlock.classList.add('comment-block'); 
+
     let nameElement = document.createElement('p');
-    nameElement.classList.add('comment-name'); 
     nameElement.textContent = `Ім'я: ${name}`;
+    nameElement.style.color = "red";
+ 
+    let commentArt = document.createElement('span');
+    commentArt.textContent = `Коментар:`;
+    commentArt.style.color = "red";
 
     let commentElement = document.createElement('p');
-    commentElement.classList.add('comment-text');
-    commentElement.textContent = `Коментар: ${comment}`;
+    commentElement.textContent = comment;
 
     commentBlock.appendChild(nameElement);
+    commentBlock.appendChild(commentArt);
     commentBlock.appendChild(commentElement);
     commentsList.appendChild(commentBlock);
 }
+
+
+
+
+setTimeout(function () {
+    const { name, comment } = generateRandomComment();
+    addComment(name, comment);
+}, 40000);
+
+function addComment(name, comment) {
+    let commentBlock = document.createElement('div');
+    commentBlock.classList.add('comment-block'); 
+
+    let nameElement = document.createElement('p');
+    nameElement.textContent = `Ім'я: ${name}`;
+    nameElement.style.color = "red";
+ 
+    let commentArt = document.createElement('span');
+    commentArt.textContent = `Коментар:`;
+    commentArt.style.color = "red";
+
+    let commentElement = document.createElement('p');
+    commentElement.textContent = comment;
+
+    commentBlock.appendChild(nameElement);
+    commentBlock.appendChild(commentArt);
+    commentBlock.appendChild(commentElement);
+    commentsList.appendChild(commentBlock);
+}
+
+
+
+setTimeout(function () {
+    const { name, comment } = generateRandomComment();
+    addComment(name, comment);
+}, 60000);
+
+function addComment(name, comment) {
+    let commentBlock = document.createElement('div');
+    commentBlock.classList.add('comment-block'); 
+
+    let nameElement = document.createElement('p');
+    nameElement.textContent = `Ім'я: ${name}`;
+    nameElement.style.color = "red";
+ 
+    let commentArt = document.createElement('span');
+    commentArt.textContent = `Коментар:`;
+    commentArt.style.color = "red";
+
+    let commentElement = document.createElement('p');
+    commentElement.textContent = comment;
+
+    commentBlock.appendChild(nameElement);
+    commentBlock.appendChild(commentArt);
+    commentBlock.appendChild(commentElement);
+    commentsList.appendChild(commentBlock);
+}
+
+
+
+setTimeout(function () {
+    const { name, comment } = generateRandomComment();
+    addComment(name, comment);
+}, 80000);
+
+function addComment(name, comment) {
+    let commentBlock = document.createElement('div');
+    commentBlock.classList.add('comment-block'); 
+
+    let nameElement = document.createElement('p');
+    nameElement.textContent = `Ім'я: ${name}`;
+    nameElement.style.color = "red";
+ 
+    let commentArt = document.createElement('span');
+    commentArt.textContent = `Коментар:`;
+    commentArt.style.color = "red";
+
+    let commentElement = document.createElement('p');
+    commentElement.textContent = comment;
+
+    commentBlock.appendChild(nameElement);
+    commentBlock.appendChild(commentArt);
+    commentBlock.appendChild(commentElement);
+    commentsList.appendChild(commentBlock);
+}
+
+
+
+setTimeout(function () {
+    const { name, comment } = generateRandomComment();
+    addComment(name, comment);
+}, 100000);
+
+function addComment(name, comment) {
+    let commentBlock = document.createElement('div');
+    commentBlock.classList.add('comment-block'); 
+
+    let nameElement = document.createElement('p');
+    nameElement.textContent = `Ім'я: ${name}`;
+    nameElement.style.color = "red";
+ 
+    let commentArt = document.createElement('span');
+    commentArt.textContent = `Коментар:`;
+    commentArt.style.color = "red";
+
+    let commentElement = document.createElement('p');
+    commentElement.textContent = comment;
+
+    commentBlock.appendChild(nameElement);
+    commentBlock.appendChild(commentArt);
+    commentBlock.appendChild(commentElement);
+    commentsList.appendChild(commentBlock);
+}
+
+
+
+setTimeout(function () {
+    const { name, comment } = generateRandomComment();
+    addComment(name, comment);
+}, 120000);
+
+function addComment(name, comment) {
+    let commentBlock = document.createElement('div');
+    commentBlock.classList.add('comment-block'); 
+
+    let nameElement = document.createElement('p');
+    nameElement.textContent = `Ім'я: ${name}`;
+    nameElement.style.color = "red";
+ 
+    let commentArt = document.createElement('span');
+    commentArt.textContent = `Коментар:`;
+    commentArt.style.color = "red";
+
+    let commentElement = document.createElement('p');
+    commentElement.textContent = comment;
+
+    commentBlock.appendChild(nameElement);
+    commentBlock.appendChild(commentArt);
+    commentBlock.appendChild(commentElement);
+    commentsList.appendChild(commentBlock);
+}
+
+
+

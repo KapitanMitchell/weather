@@ -246,4 +246,22 @@ body {
     .block {
         margin-top: 10px;
     }
+    .comment-block {
+        margin: 15px 0;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f7f7f7;
+    }
+    
+    .comment-name {
+        margin: 5px 0;
+    }
+    .comment-text{
+        
+        margin: 5px 0;
+    }
+    .commentArt{
+        color: red;
+    }
 }
